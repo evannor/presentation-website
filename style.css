@@ -79,7 +79,7 @@ body {
   animation: animate1 3s ease-in;
 }
 #page-1 p {
-  transform: translateX(-1000px);
+  transform: translateX(-2000px);
   position: relative;
   animation: animate2 3s forwards ease-in 2s;
 }
@@ -93,9 +93,9 @@ body {
 }
 @keyframes animate2 {
   from {
-    left: -1000px;
+    left: -2000px;
   }
   to {
-    left: 1000px;
+    left: 2000px;
   }
 }
